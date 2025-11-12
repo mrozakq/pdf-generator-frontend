@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 // Wstaw tutaj swój URL API Gateway
-const API_URL = process.env.REACT_APP_API_URL || 'https://nqydeq3mn3.execute-api.eu-central-1.amazonaws.com/prod/generate-offer';
+const API_URL = process.env.REACT_APP_API_URL || 'https://nqydeq3mn3.execute-api.eu-central-1.amazonaws.com/prod';
 
 interface OfferRequest {
   userId: string;
